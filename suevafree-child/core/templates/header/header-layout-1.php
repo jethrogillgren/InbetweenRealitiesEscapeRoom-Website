@@ -1,13 +1,7 @@
 <?php
 
 /**
- * Wp in Progress
- * 
- * @package Wordpress
- * @author WPinProgress
- *
- * This source file is subject to the GNU GENERAL PUBLIC LICENSE (GPL 3.0)
- * It is also available at this URL: http://www.gnu.org/licenses/gpl-3.0.txt
+ * COPY TO PARENT
  */
 
 if (!function_exists('suevafree_header_layout_1_function')) {
@@ -38,22 +32,6 @@ if (!function_exists('suevafree_header_layout_1_function')) {
 										?>
                         
                                     </div>
-                                    
-                                    <nav class="suevafree-menu suevafree-general-menu tinynav-menu">
-                                            
-                                        <?php 
-										
-											wp_nav_menu( array(
-                                        		'theme_location' => $theme_location,
-                                        		'menu_class' => $menu_class,
-												'container' => 'false',
-												'depth' => 3
-												)
-											); 
-										
-										?>
-                                        
-                                    </nav> 
                                                        
                                 </div>
                                 
