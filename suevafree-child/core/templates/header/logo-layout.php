@@ -1,8 +1,6 @@
-<?php
+<!-- Manually replaced in parent due to function_exists -->
 
-/**
- * THIS FILE NEEDS COPYING TO PARENT
- */
+<?php
 
 if (!function_exists('suevafree_logo_layout_function')) {
 
@@ -10,7 +8,7 @@ if (!function_exists('suevafree_logo_layout_function')) {
 	
 	?>
 
-	<div>
+	<!--<div>
 	  <nav class="navbar navbar-custom navbar-transparent navbar-fixed-top one-page" role="navigation">
         <div class="container">
           <div class="navbar-header">
@@ -26,7 +24,7 @@ if (!function_exists('suevafree_logo_layout_function')) {
           </div>
         </div>
       </nav>
-	</div>
+	</div>-->
 
 
 	<?php	

@@ -4,15 +4,7 @@
 
     <footer id="footer">
 
-		<?php do_action( 'suevafree_bottom_sidebar' ); ?>
-
-		<script>
-    console.log("Child footer.php");
-	</script>
-
-	<h1>
-		Child footer.php
-	</h1>
+<!-- 		<?php do_action( 'suevafree_bottom_sidebar' ); ?> -->
 		
         <div class="container">
     
@@ -57,14 +49,6 @@
 	wp_footer(); 
 	
 ?>   
-
-		<script>
-    console.log("/ Child footer.php");
-	</script>
-
-	<h1>
-		/ Child footer.php
-	</h1>
 
 </body>
 

@@ -16,7 +16,6 @@
 /*-----------------------------------------------------------------------------------*/ 
 
 if ( ! function_exists( 'suevafree_is_woocommerce_active' ) ) {
-	echo "Defining suevafree_is_woocommerce_active";
 	function suevafree_is_woocommerce_active( $type = "" ) {
 	
         global $woocommerce;

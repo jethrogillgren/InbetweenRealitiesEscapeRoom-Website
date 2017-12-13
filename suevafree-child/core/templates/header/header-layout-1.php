@@ -1,8 +1,6 @@
-<?php
+<!-- Manually replaced in parent due to function_exists -->
 
-/**
- * COPY TO PARENT
- */
+<?php
 
 if (!function_exists('suevafree_header_layout_1_function')) {
 
