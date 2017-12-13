@@ -12,23 +12,34 @@
 </head>
 
 <body <?php body_class(); ?>>
+	<div id="wrapper">
+        
+                <div id="header-wrapper" class="header-1">
+                    
+                    <header id="header" >
+                        
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12" >
+								  <nav class="navbar navbar-custom navbar-transparent navbar-fixed-top one-page" role="navigation">
+									<div class="container">
+									  <div class="navbar-header">
+										<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html">Inbetween Realities Blog</a>
+									  </div>
+									  <div class="collapse navbar-collapse" id="custom-collapse">
+										<ul class="nav navbar-nav navbar-right">
+										  <li><a href="#totop">Home</a></li>
+										  <li><a class="section-scroll" href="#pricing">Prices</a></li>
+										  <li><a class="section-scroll" href="#booking">Book</a></li>
+										  <li><a class="section-scroll" href="blog.inbetweenrealitiesescaperoom.com">Blog</a></li>
+										</ul>
+									  </div>
+									</div>
+								  </nav>
+								</div>
+                            </div>
+                        </div>
+                    </header>
+                </div>
 	
-	<div>
-	  <nav class="navbar navbar-custom navbar-transparent navbar-fixed-top one-page" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html">Inbetween Realities!</a>
-          </div>
-          <div class="collapse navbar-collapse" id="custom-collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#totop">Home</a></li>
-              <li><a class="section-scroll" href="#pricing">Prices</a></li>
-              <li><a class="section-scroll" href="#booking">Book</a></li>
-              <li><a class="section-scroll" href="blog.inbetweenrealitiesescaperoom.com">Blog</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-	</div>
-	
-<?php do_action( 'suevafree_' . suevafree_setting( 'suevafree_header_layout', 'header_layout_inbetweenrealities'), 'main-menu', 'default-menu' ); ?>
+<?php do_action( 'suevafree_' . suevafree_setting( 'suevafree_header_layout', 'none'), 'main-menu', 'default-menu' ); ?>
