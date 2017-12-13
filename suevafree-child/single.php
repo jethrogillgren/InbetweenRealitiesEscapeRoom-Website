@@ -1,12 +1,21 @@
 <?php 
 
-	get_header();
+	 get_header();
 	do_action( 'suevafree_top_sidebar', 'top-sidebar-area');
 	do_action( 'suevafree_header_sidebar', 'header-sidebar-area');
 	
 ?>
 
 <div class="container content">
+	
+	
+<script>
+    console.log("Child Single.php");
+	</script>
+
+	<h1>
+		Child Single.php
+	</h1>
 	
     <div class="row">
        

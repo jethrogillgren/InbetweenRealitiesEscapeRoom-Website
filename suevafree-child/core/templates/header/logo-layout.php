@@ -1,37 +1,35 @@
 <?php
 
 /**
- * Wp in Progress
- * 
- * @package Wordpress
- * @author WPinProgress
- *
- * This source file is subject to the GNU GENERAL PUBLIC LICENSE (GPL 3.0)
- * It is also available at this URL: http://www.gnu.org/licenses/gpl-3.0.txt
+ * THIS FILE NEEDS COPYING TO PARENT
  */
 
 if (!function_exists('suevafree_logo_layout_function')) {
 
 	function suevafree_logo_layout_function( $description ) { 
 	
-		if ( suevafree_setting('suevafree_custom_logo') ) :
-				
-			echo "<a href='" . esc_url(home_url('/')) . "' title='" . get_bloginfo('name') . "' class='image-logo'>";
-			echo "<img src='" . esc_url(suevafree_setting('suevafree_custom_logo')) . "' alt='logo'>"; 
-			echo "</a>";
-					
-		else: 
+	?>
 
-			echo "<a href='" . esc_url(home_url('/')) . "' title='" . get_bloginfo('name') . "' class='logo'>";
-			bloginfo('name');
-			
-			if ( isset($description) && $description == "on" )
-				echo "<span>".get_bloginfo('description')."</span>";
-			
-			echo "</a>";
+	<div>
+	  <nav class="navbar navbar-custom navbar-transparent navbar-fixed-top one-page" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html">Inbetween Realities</a>
+          </div>
+          <div class="collapse navbar-collapse" id="custom-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#totop">Home</a></li>
+              <li><a class="section-scroll" href="#pricing">Prices</a></li>
+              <li><a class="section-scroll" href="#booking">Book</a></li>
+              <li><a class="section-scroll" href="blog.inbetweenrealitiesescaperoom.com">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+	</div>
 
-		endif; 
-	
+
+	<?php	
 	}
 
 	add_action( 'suevafree_logo_layout', 'suevafree_logo_layout_function', 10, 2 );

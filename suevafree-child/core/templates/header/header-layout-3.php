@@ -15,6 +15,10 @@ if (!function_exists('suevafree_header_layout_3_function')) {
 	function suevafree_header_layout_3_function($theme_location, $menu_class) { 
 		
 	?>
+
+<script>
+    console.log("Child header-layout-3.php");
+	</script>
         
             <div id="wrapper">
         

@@ -1,9 +1,19 @@
 <?php if ( !suevafree_setting('suevafree_view_footer') || suevafree_setting('suevafree_view_footer') == "on" ) : ?>
     
+
+
     <footer id="footer">
 
 		<?php do_action( 'suevafree_bottom_sidebar' ); ?>
 
+		<script>
+    console.log("Child footer.php");
+	</script>
+
+	<h1>
+		Child footer.php
+	</h1>
+		
         <div class="container">
     
              <div class="row copyright" >
@@ -47,6 +57,14 @@
 	wp_footer(); 
 	
 ?>   
+
+		<script>
+    console.log("/ Child footer.php");
+	</script>
+
+	<h1>
+		/ Child footer.php
+	</h1>
 
 </body>
 

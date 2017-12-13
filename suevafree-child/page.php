@@ -8,6 +8,14 @@
 
 <div class="container content">
 	
+	<script>
+    console.log("Child page.php");
+	</script>
+
+	<h1>
+		Child Page.php
+	</h1>
+	
     <div class="row">
        
         <div class="col-md-12 full-width" >

@@ -15,7 +15,9 @@ if (!function_exists('suevafree_header_layout_2_function')) {
 	function suevafree_header_layout_2_function($theme_location, $menu_class) { 
 		
 	?>
-        
+        <script>
+    console.log("Child header-layout-2.php");
+	</script>
             <div id="wrapper">
         
                 <div id="header-wrapper" class="header-2">

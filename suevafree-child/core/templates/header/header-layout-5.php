@@ -17,7 +17,9 @@ if (!function_exists('suevafree_header_layout_5_function')) {
 			do_action('suevafree_scroll_sidebar', $theme_location, $menu_class );
 
 	?>
-
+<script>
+    console.log("Child header-layout-5.php");
+	</script>
             <div id="wrapper">
         
                 <div id="overlay-body"></div>

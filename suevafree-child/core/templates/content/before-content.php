@@ -1,3 +1,11 @@
+<script>
+    console.log("Child before-content.php");
+	</script>
+
+	<h1>
+		Child before-content.php
+	</h1>
+
 <?php 
 
 /**

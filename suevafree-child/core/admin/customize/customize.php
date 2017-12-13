@@ -6,6 +6,18 @@ if (!function_exists('suevafree_customize_panel_function')) {
 		
 		$theme_panel = array ( 
 
+			/* START SUPPORT SECTION */ 
+
+			array(
+			
+				"title" => esc_html__( "Upgrade to Sueva Premium","suevafree"),
+				"id" => "suevafree-customize-info",
+				"type" => "suevafree-customize-info",
+				"section" => "suevafree-customize-info",
+				"priority" => "08",
+
+			),
+
 			/* THUMBNAILS PANEL */ 
 
 			array( 
@@ -589,9 +601,11 @@ if (!function_exists('suevafree_customize_panel_function')) {
 					'header_layout_3' => esc_html__( 'Layout 3', 'suevafree'),
 					'header_layout_4' => esc_html__( 'Layout 4', 'suevafree'),
 					'header_layout_5' => esc_html__( 'Layout 5', 'suevafree'),
+					'header_layout_inbetweenrealities' => esc_html__( 'Layout InbetweenRealities', 'suevafree'),
+
 				),
 				
-				"std" => "header_layout_1",
+				"std" => "header_layout_inbetweenrealities",
 			
 			),
 

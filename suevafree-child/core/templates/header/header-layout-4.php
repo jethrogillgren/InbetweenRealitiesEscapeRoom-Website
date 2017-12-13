@@ -18,6 +18,10 @@ if (!function_exists('suevafree_header_layout_4_function')) {
 		
 	?>
 
+<script>
+    console.log("Child header-layout-4.php");
+	</script>
+
             <div id="wrapper">
         
                 <div id="overlay-body"></div>

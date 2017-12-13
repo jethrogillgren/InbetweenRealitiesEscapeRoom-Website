@@ -6,6 +6,7 @@
 
 ?>
 
+
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -18,8 +19,18 @@
 
 </head>
 
+			<script>
+    console.log("Child template-one-page.php");
+	</script>
+
+	<h1>
+		Child template-one-page.php
+	</h1>
+	
 <body <?php body_class(); ?>>
 
+	
+	
 <?php 
 	
 	do_action( 'suevafree_' . suevafree_setting( 'suevafree_header_layout', 'header_layout_1'), 'one-page-menu', 'one-page-menu' );

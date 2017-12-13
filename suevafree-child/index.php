@@ -1,3 +1,11 @@
+
+<script>
+    console.log("Child Index.php");
+	</script>
+
+	<h1>
+		Child Index.php
+	</h1>
 <?php 
 
 	get_header();
