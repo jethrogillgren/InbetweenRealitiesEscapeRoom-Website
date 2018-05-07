@@ -10,7 +10,7 @@ Backup of wordpress config is on googledrive from UpdraftPlus - Backup/Restore. 
 The theme code is partly shared with the EC2 website.
 To update, do a git pull and then make sure that sueve-child/footer.php and header.php are updated with any changes.  The header will be different
 Any images in the footer need their paths changed from assets/images/A.jpg to wp-content/common-assets/images/A.jpg
-The main css file also needs copying, i
+The main css file also needs manual copying, using the CSS theme editor in the wordpress webpage.
 
 Blog code is really just the theme - everything can be installed using the wordpress site backup in google drive, the then git used to push new changes to the theme.
 
