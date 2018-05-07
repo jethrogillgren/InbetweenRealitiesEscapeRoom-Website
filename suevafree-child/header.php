@@ -21,20 +21,29 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12" >
-									
-								  <!-- Manually copy from Titan-Master which is the authorative version -->
-								  <nav class="navbar navbar-custom navbar-fixed-top one-page" role="navigation">
-									<div class="container">
-									  <div class="navbar-header">
-										<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="http://blog.inbetweenrealitiesescaperoom.com/">Inbetween Realities Blog</a>
-									  </div>
-									  <div class="collapse navbar-collapse" id="custom-collapse">
-										<ul class="nav navbar-nav navbar-right">
-										  <li><a href="http://inbetweenrealitiesescaperoom.com/index.html">Main Site</a></li>
-										</ul>
-									  </div>
-									</div>
-								  </nav>
+
+<!-- BEGIN SECTION TO COPY TO EC2 BLOG HEADER.PHP -->
+<!-- remove navbar-transparent class for blog. TODO fix whtever stops the transparent getting auto removed when we scroll from the top -->
+      <nav class="navbar navbar-custom navbar-fixed-top one-page" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            <a class="navbar-brand section-scroll" href="#home">Inbetween Realities</a>
+
+
+          </div>
+          <div class="collapse navbar-collapse" id="custom-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              
+<li><a href="http://inbetweenrealitiesescaperoom.com/index.html">Main Site</a></li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- END SECTION TO COPY TO EC2 BLOG HEADER.PHP -->
+
+
 									
 								</div>
                             </div>
