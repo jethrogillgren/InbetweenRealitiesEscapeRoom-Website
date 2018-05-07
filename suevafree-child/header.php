@@ -26,7 +26,7 @@
       <nav class="navbar navbar-custom navbar-fixed-top one-page" role="navigation">
         <div class="container">
           <div class="navbar-header" style:"display: inline-block">
-            <a class="navbar-brand section-scroll" href="#home">Inbetween Realities Blog</a>
+            <a class="navbar-brand section-scroll" href="http://blog.inbetweenrealitiesescaperoom.com">Inbetween Realities Blog</a>
           </div>
           
           <div class="">

@@ -43,14 +43,14 @@
                   <h5 class="widget-title font-alt">Top Posts</h5>
                   <ul class="widget-posts">
                     <li class="clearfix">
-                      <div class="widget-posts-image"><a href="http://blog.inbetweenrealitiesescaperoom.com/welcome-to-something-new"><img src="wp-content/common-assets/images/DeerThumbnail.png" alt="Post Thumbnail"/></a></div>
+                      <div class="widget-posts-image"><a href="http://blog.inbetweenrealitiesescaperoom.com/welcome-to-something-new"><img src="http://blog.inbetweenrealitiesescaperoom.com/wp-content/common-assets/images/DeerThumbnail.png" alt="Post Thumbnail"/></a></div>
                       <div class="widget-posts-body">
                         <div class="widget-posts-title"><a href="http://blog.inbetweenrealitiesescaperoom.com/welcome-to-something-new">Welcome to something new</a></div>
                         <div class="widget-posts-meta"><a href="http://blog.inbetweenrealitiesescaperoom.com/">Blog</a> - 6 May</div>
                       </div>
                     </li>
                     <li class="clearfix">
-                      <div class="widget-posts-image"><a href="https://www.instagram.com/p/BicsdNZnxb5/"><img src="wp-content/common-assets/images/SidePeachThumbnail.jpg" alt="Post Thumbnail"/></a></div>
+                      <div class="widget-posts-image"><a href="https://www.instagram.com/p/BicsdNZnxb5/"><img src="http://blog.inbetweenrealitiesescaperoom.com/wp-content/common-assets/images/SidePeachThumbnail.jpg" alt="Post Thumbnail"/></a></div>
                       <div class="widget-posts-body">
                         <div class="widget-posts-title"><a href="https://www.instagram.com/p/BicsdNZnxb5/">The Magic Butterfly Draw</a></div>
                         <div class="widget-posts-meta"><a href="https://www.instagram.com/inbetweenrealities">Instagram</a> - 6 May</div>
