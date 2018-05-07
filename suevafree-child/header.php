@@ -22,26 +22,23 @@
                             <div class="row">
                                 <div class="col-md-12" >
 
-<!-- BEGIN SECTION TO COPY TO EC2 BLOG HEADER.PHP -->
-<!-- remove navbar-transparent class for blog. TODO fix whtever stops the transparent getting auto removed when we scroll from the top -->
+      <!-- This header is different than the main site - it has only one menu item. -->
       <nav class="navbar navbar-custom navbar-fixed-top one-page" role="navigation">
         <div class="container">
-          <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            <a class="navbar-brand section-scroll" href="#home">Inbetween Realities</a>
-
-
+          <div class="navbar-header" style:"display: inline-block">
+            <a class="navbar-brand section-scroll" href="#home">Inbetween Realities Blog</a>
           </div>
-          <div class="collapse navbar-collapse" id="custom-collapse">
-            <ul class="nav navbar-nav navbar-right">
-              
-<li><a href="http://inbetweenrealitiesescaperoom.com/index.html">Main Site</a></li>
+          
+          <div class="">
+<ul class="nav navbar-nav navbar-right">
+              <!--<li><a class="section-scroll" href="#totop">Home</a></li>-->
+              <li><a align="right" href="http://www.inbetweenrealitiesescaperoom.com">Main Site</a></li>
+</ul>         
+ </div>
 
-            </ul>
-          </div>
         </div>
-      </nav>
-      <!-- END SECTION TO COPY TO EC2 BLOG HEADER.PHP -->
+      </nav>      
+      <!-- END different header -->
 
 
 									
