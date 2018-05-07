@@ -9,7 +9,7 @@ The assets folder needs to be named assets, not common-assets.  Easiest is to re
 Backup of wordpress config is on googledrive from UpdraftPlus - Backup/Restore.  AWS EC2 snapshot exists for linux config.
 The theme code is partly shared with the EC2 website.
 To update, do a git pull and then make sure that sueve-child/footer.php and header.php are updated with any changes.  The header will be different
-Upload any images used in the footer
+Any images in the footer need their paths changed from assets/images/A.jpg to wp-content/common-assets/images/A.jpg
 The main css file also needs copying, i
 
 Blog code is really just the theme - everything can be installed using the wordpress site backup in google drive, the then git used to push new changes to the theme.
